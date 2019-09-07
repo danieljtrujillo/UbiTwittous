@@ -24,11 +24,11 @@
         <![endif]-->
 
         <!-- Favicon and touch icons -->
-        <link rel="shortcut icon" href="static/ico/favicon.png">
-        <link rel="apple-touch-icon-precomposed" sizes="144x144" href="static/ico/apple-touch-icon-144-precomposed.png">
-        <link rel="apple-touch-icon-precomposed" sizes="114x114" href="static/ico/apple-touch-icon-114-precomposed.png">
-        <link rel="apple-touch-icon-precomposed" sizes="72x72" href="static/ico/apple-touch-icon-72-precomposed.png">
-        <link rel="apple-touch-icon-precomposed" href="static/ico/apple-touch-icon-57-precomposed.png">
+        <link rel="shortcut icon" href="static/ico/UbiTwittousEye72_dark.png">
+        <link rel="apple-touch-icon-precomposed" sizes="144x144" href="static/ico/UbiTwittousEye144.png">
+        <link rel="apple-touch-icon-precomposed" sizes="114x114" href="static/ico/UbiTwittousEye144.png">
+        <link rel="apple-touch-icon-precomposed" sizes="72x72" href="static/ico/UbiTwittousEye72.png">
+        <link rel="apple-touch-icon-precomposed" href="static/ico/UbiTwittousEye72_dark.png">
 
     </head>
 
@@ -41,7 +41,7 @@
                 <div class="container">
                     <div class="row">
                         <div class="col-sm-10 col-sm-offset-1 text">
-                            <h1><strong>UbiTwitter</strong></h1>
+                            <h1><strong>UbiTwittous</strong></h1>
                             <div class="description">
                             	<p>
 	                            	 <strong>M A C H I N E L E A R N I N G to analyze Sentiment and Factuality</strong>
@@ -77,19 +77,22 @@
                                                       <button data-toggle="tooltip" data-placement="left" title="Tweets which are Opinion"  id="opi" class="btn">Opinion</button>
                                                       <button  data-toggle="tooltip" data-placement="left" title="Show only Negative Tweets"  class="btn" id="nsenti">Negative</button>
                                                       <button  data-toggle="tooltip" data-placement="left" title="Factual Tweets"  id="fac" class="btn">Factual</button>
+                                                      <br>
+                                                      <br>
+                                                      <div style="height:200px;border:1px solid #ccc;font:16px/26px Georgia, Garamond, Serif;overflow:auto;" id="search_result">
+                                                          <ol id="search_list"></ol>
+                                                        </div>
                                             </div>
                                         </div>
+<!--                                        <div class="search_result_canvas">
 
+</div> -->
                                     </div>
 			                    </form>
 		                    </div>
                         </div>
                     </div>
-                    <div id="search_result">
-                        <ol id="search_list">
-
-                        </ol>
-                    </div>
+***
                     <!-- <div class="row">
                        <div class="col-sm-6 col-sm-offset-3 social-login">
                       	<h3>Code Available at :</h3>
