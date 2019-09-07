@@ -161,6 +161,10 @@ img { max-width: 100%; }
 	margin-top: 25px;
 }
 
+/***** .search_result_canvas {
+	opacity: 0.75;
+}
+*****/
 
 /***** Media queries *****/
 
@@ -176,13 +180,15 @@ img { max-width: 100%; }
 
 @media (max-width: 415px) {
 	
-	h1, h2 { font-size: 32px; }
+	h1, h2 { font-size: 16px; }
 
 }
 
 #search_result{
+	opacity: 0.75;
         font-weight: bold;
 	text-align: left;
-    background-color: white;
-    
+        background-color: #101010;
+        border-radius: 10px;
+        margin: 0 100 0 100; 
 }
