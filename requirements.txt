@@ -1,6 +1,6 @@
 textblob==0.15.1
 nltk==3.6.2
-Flask==1.0.2
+Flask==2.3.2
 tweepy==3.6.0
 gunicorn==19.9.0
 Jinja2==2.11.3
